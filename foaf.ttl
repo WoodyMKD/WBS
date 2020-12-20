@@ -1,1 +1,37 @@
-Empty
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/WoodyMKD/WBS/main/foaf.ttl> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <https://raw.githubusercontent.com/WoodyMKD/WBS/main/foaf.ttl#me> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/WoodyMKD/WBS/main/foaf.ttl#me> .
+
+<https://raw.githubusercontent.com/WoodyMKD/WBS/main/foaf.ttl#me> a foaf:Person ;
+    foaf:family_name "Todorovski" ;
+    foaf:givenname "Stefan" ;
+    foaf:homepage <https://github.com/WoodyMKD> ;
+    foaf:knows [ a foaf:Person ;
+            rdfs:seeAlso <https://www.dropbox.com/s/d3gfidqqfwvo4e9/foaf.ttl?dl=1> ;
+            foaf:mbox_sha1sum "ae546fd808eb05327d11d6839a9f947c7e768a8d" ;
+            foaf:name "Ivan Janev" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/ivankrstev7/WBS_FOAF/master/foaf.ttl?fbclid=IwAR26pFKWhjKR0JcwK7r8OT0qVtnCvAIiPXlbznTYBGUxPyNkSEwlPfWD7cA> ;
+            foaf:mbox_sha1sum "b7be129c6d2dc88718035ecb4d20b33ba22cba9b" ;
+            foaf:name "Ivan Krstev" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/angela-kralevska/COVID19_MK_project/master/foaf.ttl> ;
+            foaf:mbox_sha1sum "c379376b8ee627970ee97e1056f2615a704f5fce" ;
+            foaf:name "Angela Kralevska" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/MetoNovko/FOAF/master/foaf.ttl> ;
+            foaf:mbox_sha1sum "b4fd56b1bb7a006ee3bd9b4bbda6b45581b7771a" ;
+            foaf:name "Metodija Novkovski" ] ;
+    foaf:mbox_sha1sum "922da07c81d505bcb013a18cae05617657d00111" ;
+    foaf:name "Stefan Todorovski" ;
+    foaf:phone <https://raw.githubusercontent.com/WoodyMKD/WBS/main/tel:075503403> ;
+    foaf:schoolHomepage <https://finki.ukim.mk/> ;
+    foaf:title "Mr" ;
+    foaf:workInfoHomepage <https://datarella.com/tag/kosmos/> ;
+    foaf:workplaceHomepage <https://datarella.com/> .

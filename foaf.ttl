@@ -17,7 +17,7 @@
             foaf:mbox_sha1sum "ae546fd808eb05327d11d6839a9f947c7e768a8d" ;
             foaf:name "Ivan Janev" ],
         [ a foaf:Person ;
-            rdfs:seeAlso <https://raw.githubusercontent.com/ivankrstev7/WBS_FOAF/master/foaf.ttl?fbclid=IwAR26pFKWhjKR0JcwK7r8OT0qVtnCvAIiPXlbznTYBGUxPyNkSEwlPfWD7cA> ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/ivankrstev7/WBS_FOAF/master/foaf.ttl> ;
             foaf:mbox_sha1sum "b7be129c6d2dc88718035ecb4d20b33ba22cba9b" ;
             foaf:name "Ivan Krstev" ],
         [ a foaf:Person ;

@@ -13,9 +13,9 @@
     foaf:givenname "Stefan" ;
     foaf:homepage <https://github.com/WoodyMKD> ;
     foaf:knows [ a foaf:Person ;
-            rdfs:seeAlso <https://www.dropbox.com/s/d3gfidqqfwvo4e9/foaf.ttl?dl=1> ;
-            foaf:mbox_sha1sum "ae546fd808eb05327d11d6839a9f947c7e768a8d" ;
-            foaf:name "Ivan Janev" ],
+            rdfs:seeAlso <https://raw.githubusercontent.com/risto-trajanov/Foaf/main/foaf.ttl> ;
+            foaf:mbox_sha1sum "a23a8e8886b5b009cdb4a6fb9491deedc16dc0cb" ;
+            foaf:name "Risto Trajanov" ],
         [ a foaf:Person ;
             rdfs:seeAlso <https://raw.githubusercontent.com/ivankrstev7/WBS_FOAF/master/foaf.ttl> ;
             foaf:mbox_sha1sum "b7be129c6d2dc88718035ecb4d20b33ba22cba9b" ;
